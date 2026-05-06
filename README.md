@@ -55,10 +55,9 @@ flowchart TD
 - **Measurement** — шумное измерение сенсора;
 - **Estimate (Particle Filter)** — оценка положения, полученная фильтром частиц.
 
-![Particle Filter Visualization](docs/images/particle_filter_visualization.png)
-
 График показывает, что оценка Particle Filter обычно идёт ближе к истинной траектории, чем шумные измерения. Это означает, что фильтр уменьшает влияние случайного шума и даёт более устойчивую оценку положения объекта.
 
+<img width="1000" height="600" alt="Figure_1" src="https://github.com/user-attachments/assets/ee3e36b8-88e3-4934-a3c3-db89b23cf04f" />
 
 ## Коротко о терминах
 
